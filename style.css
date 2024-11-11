@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #200031;
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #ffcfcf;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: #ffcfcf;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #a91ab4;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 65vh !important;
+    background: url(morado.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 0px;
+    font-size: 900;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #00deda;
+}
+
+p {
+   text-align: left;
+    margin-bottom: 50px;
+    font-size: 18px;
+    color: #00f7eb;
+    padding: 0 100px;
+}
+    
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 50px;
+    border: 2px solid #49aee4;
+    color: #ffffff;
+    text-decoration: none;
+    background: #03ffc0;
+}
+
+.btn:hover {
+    background: none;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+   height: 1000vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.sau {
+    padding: 25px 40px;
+    background: #44004a;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+    height: 30rem;
+    width: 25rem;
+    background: #1e012c;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, 5);
+    margin: 2rem;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #edd9eb;
+    background: #9102df;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #a039d7;
+
+}
+
+.box-container .box p {
+    padding: 0 60px;
+    font-size: 20px;
+}
+
+.about {
+    background: #160121;
+}
+
+.price {
+    background: url(space.jpg!d) no-repeat center;
+    background-attachment: fixed;
+    background: cover;
+    text-align: center;
+}
+
+
+.contact {
+    padding: 10px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+@media (max-width: 800x) {
+    
+    .title {
+        margin-bottom: 0;
+        font-size: 45px;
+    }
+
+    .sau {
+        height: 750vh
+    }
+
+    .navbar{
+        display: none;
+    }
+    
+
+}
